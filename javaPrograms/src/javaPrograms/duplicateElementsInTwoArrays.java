@@ -28,7 +28,15 @@ public class duplicateElementsInTwoArrays {
         		{System.out.println(i);
         		}
         	}
-        	       
+        	      
+        /* - Easiest method like the duplicate elements in an array
+         * 
+         * for(int i = 0; i < a.length; i++) {  
+            for(int j = 0; j < b.length; j++) {  
+                if(a[i] == b[j])  
+                    System.out.println("Array A and B contains both elements"+ a[i]);  
+            }  
+        }  */	
    
     }  
         	
